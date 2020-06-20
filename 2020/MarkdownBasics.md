@@ -1,6 +1,6 @@
-#Markdown Instruction
+# Markdown Instruction
 
-##What is  Markdown?
+## What is  Markdown?
     - a lightweight markup language 
     - plain-text-formatting syntax
     - a software tool, written in Perl, that converts the plain text formatting to HTML
@@ -38,17 +38,17 @@ Note:
         go right ahead.
 
 
-##Why Markdown?
+## Why Markdown?
     - easy-to-read 
     - easy-to-write
-##Syntax
-###Header
+## Syntax
+### Header
 
     # This is an \<h1> tag  
     ## This is an \<h2> tag  
     ###### This is an \<h6> tag
 
-###Emphasis `*`; `_`; `~`;
+### Emphasis `*`; `_`; `~`;
 *This text will be italic*  
 _This will also be italic_
 
@@ -71,9 +71,10 @@ _You **can** combine them_
 ~~This text will have strikethrough~~   
 
      ~~This text will have strikethrough~~ 
-     
-     
-###List
+
+
+​     
+### List
 #### Unordered List `*` `-` `+`
 * item 1
 + item 2
@@ -88,7 +89,7 @@ _You **can** combine them_
             * item 2a
             * item 2b
         - item 3
-        
+
 Method 2: HTML  
 #### Ordered List `1` `2` `3`
 
@@ -109,7 +110,7 @@ Method 1: Markdown Number
     3. item 3
         1. item 3a
         2. item 3b
-        
+
 <ol>
   <li>one</li>
   <li>two
@@ -130,8 +131,8 @@ Method 2: HTML
       </ol></li>  
       <li>three</li>
     </ol>   
-    
-###Blockquotes `>`
+
+### Blockquotes `>`
 - Blockquotes can be nested  
 - Blockquotes can contain other Markdown elements, 
 including headers, lists, and code blocks:
@@ -141,21 +142,21 @@ Example:
 As Kanye West said:
 > We're living the future so
 > the present is our past.
->>from Kanye West  `>>`
->>>This is nested blockquote `>>>`
->>> ######here is a header.
->>>1. here is the 1st list item
->>>2. here is the 2nd list item  
+> >from Kanye West  `>>`
+> >>This is nested blockquote `>>>`
+> >>###### here is a header.
+> >>1. here is the 1st list item
+> >>2. here is the 2nd list item  
 
     As Kanye West said:
     > We're living the future so
     > the present is our past.
     >>from Kanye West  `>>`
     >>>This is nested blockquote `>>>`
-    >>> ######here is a header.
+    >>> ###### here is a header.
     >>>1. here is the 1st list item
     >>>2. here is the 2nd list item  
-###Inline Code `` ` ``
+### Inline Code `` ` ``
 Example: I think you should use an `<addr>` element here.
 
     I think you should use an `<addr>` element here.
@@ -165,10 +166,10 @@ A single backtick in a code span: `` ` ``
 A backtick-delimited string in a code span: `` `foo` ``  
 
     A backtick-delimited string in a code span: `` `foo` ``
-###Code Block 
+### Code Block 
 Method 1: 4 spaces  
 Method 2: 1 tab  
-###Horizontal Rule
+### Horizontal Rule
 *****
 3 or more hyphens, asterisks, or underscores on a line   
 Space is optional
@@ -180,21 +181,21 @@ Space is optional
     - - -
     
     ---------------------------------------
-###Line break
+### Line break
  - Method 1:  2 or more spaces, and then type return <br/>
  - Method 2:  insert a `<br/>` tag at the end
  - Method 3:  blockquoting `>`
  - Method 4: list items `*`; `-`; `+`;
 
-##Escaption
+## Escaption
 < -- `&lt`  
 & -- `&amp`
 
-##Backslash Escape 
+## Backslash Escape 
 Example: \*literal asterisks\*  
 
     \*literal asterisks\*
-    
+
 Markdown provides backslash escapes for the following characters:
     
     \   backslash
@@ -209,29 +210,31 @@ Markdown provides backslash escapes for the following characters:
     -   minus sign (hyphen)
     .   dot
     !   exclamation mark
-###Image
+### Image
 Example: ![Github Logo](/Users/jing/Desktop/GitHub/GitHub-Mark/PNG/GitHub-Mark-64px.png)  
 
     ![Github Logo](/Users/jing/Desktop/GitHub/GitHub-Mark/PNG/GitHub-Mark-64px.png)
 - Format:    `![Alt Text](url)`
 
-###Link 
+### Link 
  Example 1: [Github](http://github.com)    
- 
+
         [Github](http://github.com)
  Example 2: <http://github.com>    
- 
+
         <http://github.com>
-        
+
  Format:   
    * Method 1: `![Alt Text](url)`  
    * Method 2: `<url>`  
-##Advanced
+## Advanced
 - Mathematics - Latex  
 
-##How MD works with Web?
+## How MD works with Web?
 ******
 Origin from  [Markdown](https://daringfireball.net/projects/markdown/)  
 Summarized by [Jenny Jing XU](https://www.linkedin.com/in/jenny-jing-xu-a8061342/) in June 19 2020
+
+******
 
 ******
