@@ -44,31 +44,34 @@ Note:
 ## Syntax
 ### Header
 
-    # This is an \<h1> tag  
-    ## This is an \<h2> tag  
-    ###### This is an \<h6> tag
+    # This is an <h1> tag  
+    ## This is an <h2> tag  
+    ###### This is an <h6> tag
 
 ### Emphasis `*`; `_`; `~`;
-*This text will be italic*  
-_This will also be italic_
-
+Example:
     *This text will be italic*  
     _This will also be italic_
 
-**This text will be bold**  
-__This will also be bold__
+    *This text will be italic*  
+    _This will also be italic_
+Example:
+    **This text will be bold**  
+    __This will also be bold__
 
     **This text will be bold**  
     __This will also be bold__
-_You **can** combine them_
+Example:
+    _You **can** combine them_
 
     _You **can** combine them_
 
-***This text will be italic & bold***
-
+Example:
     ***This text will be italic & bold***
 
-~~This text will have strikethrough~~   
+    ***This text will be italic & bold***
+Example:
+    ~~This text will have strikethrough~~   
 
      ~~This text will have strikethrough~~ 
 
@@ -175,21 +178,14 @@ Method 2: 1 tab
 Space is optional
 
     * * *
-    
     ***
-    
     - - -
-    
     ---------------------------------------
 ### Line break
  - Method 1:  2 or more spaces, and then type return <br/>
  - Method 2:  insert a `<br/>` tag at the end
  - Method 3:  blockquoting `>`
  - Method 4: list items `*`; `-`; `+`;
-
-## Escaption
-< -- `&lt`  
-& -- `&amp`
 
 ## Backslash Escape 
 Example: \*literal asterisks\*  
@@ -211,7 +207,7 @@ Markdown provides backslash escapes for the following characters:
     .   dot
     !   exclamation mark
 ### Image
-Example: ![Github Logo](/Users/jing/Desktop/GitHub/GitHub-Mark/PNG/GitHub-Mark-64px.png)  
+Example: ![Github Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)  
 
     ![Github Logo](/Users/jing/Desktop/GitHub/GitHub-Mark/PNG/GitHub-Mark-64px.png)
 - Format:    `![Alt Text](url)`
